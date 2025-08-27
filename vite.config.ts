@@ -16,4 +16,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // 👇 Add this for GitHub Pages deployment
+  base: "/Sanjaykishore18/",
 });
